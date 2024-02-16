@@ -17,22 +17,15 @@
 </template>
 
 <style scoped>
-header{
-  max-width: 1220px;
+
+header {
   display: flex;
-  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.05);
-  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1220px;
   margin-left: auto;
-}
-
-a{
-  text-decoration: none;
-}
-
-nav{
-  width: 100vw;
-  height: 70px;
-  background: transparent;
+  margin-right: auto;
+  font-family: "Mulish", sans-serif;
 }
 
 .logo{
@@ -42,28 +35,25 @@ nav{
   white-space: nowrap;
   padding-right: 25px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 
-.menu-links{
-  flex-grow: 1;
+nav{
+  width: 100%;
+}
+
+.menu-links {
+  display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  text-align: center;
+  font-weight: 500;
 }
 
-.fa-vk:before{
-  content: "\f189";
+.button-a{
+  padding-left: 100px;
 }
 
-button{
-  cursor: pointer;
-  width: 160px;
-  height: 36px;
-  border-radius: 5px;
-  background-color: #6071ff;
-  color: #ffffff;
-  font-weight: 600;
-  border: none;
-}
 </style>
 
 <script setup>
